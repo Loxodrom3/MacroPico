@@ -51,7 +51,6 @@ for i in range(0, numPixels, 1):
     keyLED[i] = (0, 50, 35)  # nice start up color
 keyLED.show()
 
-#pins used in JP's pico PCB (not using GP14 for midi, so I took it out of the list)
 pins = [
     board.GP27,
     board.GP26,
@@ -69,7 +68,7 @@ pins = [
     board.GP12,
     board.GP11,
     board.GP10,
-    board.GP6
+    board.GP14
 ]
 
 
